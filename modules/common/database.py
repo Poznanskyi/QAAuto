@@ -4,7 +4,7 @@ import sqlite3
 class Database():
 
     def __init__(self):
-        self.connection = sqlite3.connect(r'C:\Users\Nata\OneDrive\Робочий стіл\Дмитро\QAAuto' + r'\become_qa_auto.db')
+        self.connection = sqlite3.connect(r'C:\Users\pozna\Desktop\QAAuto' + r'\become_qa_auto.db')
         self.cursor = self.connection.cursor()
 
     def test_connection(self):
